@@ -11,13 +11,13 @@ Two **types of risks** are associated with the bank’s decision:
 
 The data given below contains information about past loan applicants and whether they **‘defaulted’** or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of the loan, lending (to risky applicants) at a higher interest rate, etc. The following dataset contains the complete loan data for all loans issued through the time period 2007 to 2011.
 
-[Loan Dataset](data/loan.csv)
+[Loan Dataset](loan.csv)
 
 In this case study, we will use EDA to understand how **consumer attributes** and **loan attributes** influence the tendency of default.
 
 **Note: You can access the data dictionary which describes the meaning of these variables from the provided link below:**
 
-[Data Dictionary](data/Data_Dictionary.xlsx)
+[Data Dictionary](Data_Dictionary.xlsx)
 
 ## Table of Contents
 
@@ -100,6 +100,7 @@ Data Visualization using:
 
 - Matplotlib - version 3.8.4
 - Seaborn - version 0.13.2
+- Plotly - version 5.22.0
 
 ## Acknowledgements
 
