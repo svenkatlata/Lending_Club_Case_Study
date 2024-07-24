@@ -198,11 +198,10 @@ Based on the Univariate and Segmented Univariate Analysis, we can conclude that 
    - **Charged Off Loans:** Correlation is 0.087, suggesting a weak positive relationship where higher annual income is weakly associated with higher revolving credit utilization in defaulted loans.
    - **Charged Off Loans Density:** The scatterplot shows a higher density of points at the lower end of annual incomes and higher ends of revolving utilization rates.
 10. **Relationship between Debt-to-Income Ratio and Revolving Utilization Rate:**
-
-- **Overall Correlation:** 0.279, indicating a moderate positive correlation between debt-to-income ratio and revolving utilization.
-- **Fully Paid Loans:** Correlation is 0.285, suggesting a slightly stronger positive relationship where higher debt-to-income ratio is moderately associated with higher revolving utilization in fully paid loans.
-- **Charged Off Loans:** Correlation is 0.226, showing a weaker positive relationship compared to fully paid loans, where higher debt-to-income ratios are weakly associated with higher revolving credit utilization in defaulted loans.
-- **Charged Off Loans Density:** The scatterplot shows a higher density of points at the higher ends of both DTIs and revolving utilization rates.
+    - **Overall Correlation:** 0.279, indicating a moderate positive correlation between debt-to-income ratio and revolving utilization.
+    - **Fully Paid Loans:** Correlation is 0.285, suggesting a slightly stronger positive relationship where higher debt-to-income ratio is moderately associated with higher revolving utilization in fully paid loans.
+    - **Charged Off Loans:** Correlation is 0.226, showing a weaker positive relationship compared to fully paid loans, where higher debt-to-income ratios are weakly associated with higher revolving credit utilization in defaulted loans.
+    - **Charged Off Loans Density:** The scatterplot shows a higher density of points at the higher ends of both DTIs and revolving utilization rates.
 
 #### OUTCOME:
 
