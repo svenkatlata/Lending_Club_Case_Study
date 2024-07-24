@@ -406,7 +406,7 @@ _Batch: ML C65_
 
 ## Contact
 
-Reach out to the creators on,
+Reach out to the creators on GitHub using,
 
 - [Venkat Lata](https://github.com/svenkatlata)
 
