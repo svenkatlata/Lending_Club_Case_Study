@@ -337,44 +337,44 @@ Overall, the analysis highlights that larger loan amounts, higher interest rates
 
 ### Recommendations
 
-1. **Tailor Loan Amounts by Region:**
+1. **Loan Amounts and Default Rates:**
 
-   - **Adjust Loan Amounts:** Given that states with higher mean loan amounts tend to exhibit higher default rates, consider implementing more stringent lending criteria or adjusting loan limits based on regional economic conditions. This could help mitigate the risk associated with larger loans in high-risk areas.
-   - **Regional Analysis:** Conduct a detailed regional analysis to tailor loan offerings according to local economic conditions and financial risks, particularly focusing on states like Arkansas and Iowa.
+   - **Observation:** States with higher average loan amounts, such as Arkansas and the District of Columbia, also exhibit higher default rates. For example, Arkansas shows a significant increase in default rates alongside higher mean loan amounts.
+   - **Recommendation:** Implement stricter lending criteria or enhanced risk assessment protocols in states with higher average loan amounts to mitigate the risk of defaults.
 
-2. **Monitor and Adjust Interest Rates:**
+2. **Interest Rates and Loan Amounts:**
 
-   - **Interest Rate Adjustments:** Since there is a correlation between higher loan amounts and elevated interest rates, consider revising interest rates based on loan size and default risk. Implement tiered interest rates that better reflect the risk profile of borrowers in different regions.
-   - **Targeted Interventions:** For states with a noticeable gap in interest rates, such as Iowa, assess and adjust interest rate strategies to align with local market conditions.
+   - **Observation:** There is a moderate positive correlation (0.291) between loan amounts and interest rates for defaulted loans, suggesting that higher loan amounts are often associated with higher interest rates, particularly for defaulters.
+   - **Recommendation:** Review and adjust interest rate settings to ensure they align with the risk profiles of borrowers, especially for larger loan amounts.
 
-3. **Evaluate Loan Purposes and Default Risk:**
+3. **Annual Income and Default Risk:**
 
-   - **Focus on Loan Purposes:** Since debt consolidation loans show a higher likelihood of default, implement additional scrutiny for loan applications with this purpose. Consider offering tailored financial counseling or stricter qualification criteria for debt consolidation loans.
-   - **Diversify Loan Products:** Promote loan products with lower default rates, such as home improvement loans, to balance the risk associated with high default purposes.
+   - **Observation:** Borrowers who default tend to have slightly lower average annual incomes ($57,000) compared to those who fully repaid their loans ($65,000). Additionally, higher annual incomes are somewhat associated with higher loan amounts in defaulted loans (correlation of 0.391).
+   - **Recommendation:** Incorporate a more detailed income verification process and possibly introduce income-based lending limits to reduce default risk.
 
-4. **Refine Loan Terms and Conditions:**
+4. **Debt-to-Income Ratio (DTI) and Defaults:**
 
-   - **Term Length Analysis:** Reevaluate the terms offered, especially the 36-month term, which is prevalent among defaulters. Experiment with different loan term lengths and assess their impact on default rates.
-   - **Flexible Repayment Options:** Introduce flexible repayment options or term adjustments based on borrowers’ financial profiles to better accommodate varying repayment capacities.
+   - **Observation:** Defaults are associated with higher average DTI ratios (14%) compared to fully paid loans (13%). This indicates that higher DTI ratios are a significant factor in loan defaults.
+   - **Recommendation:** Consider lowering acceptable DTI ratios for loan approvals or implementing additional checks for borrowers with higher DTI ratios.
 
-5. **Enhance Income and Employment Verification:**
+5. **Revolving Utilization Rate and Default Rates:**
 
-   - **Income Verification:** Strengthen income verification processes to ensure that borrowers have a stable income that aligns with their loan amounts. Higher default rates among low-income borrowers suggest the need for more rigorous income assessments.
-   - **Employment Stability:** Given that borrowers with longer employment durations exhibit higher default rates, incorporate additional stability checks and offer financial planning resources for these borrowers.
+   - **Observation:** Defaulted loans have higher average revolving utilization rates (56%) compared to fully paid loans (47%). The correlation between revolving utilization and interest rates is also moderately positive (0.375).
+   - **Recommendation:** Monitor and manage borrowers’ revolving credit utilization more closely, and adjust credit limits or terms to address high utilization rates.
 
-6. **Improve Debt-to-Income (DTI) and Credit Utilization Metrics:**
+6. **Qualitative Indicators of Default:**
 
-   - **Monitor DTI Ratios:** Implement stricter DTI ratio limits for higher loan amounts to ensure that borrowers can manage their debt effectively. Given that defaulters have higher DTI ratios, monitoring and managing this metric is crucial.
-   - **Revolving Utilization Control:** Introduce measures to help borrowers manage their revolving credit utilization rates more effectively, such as financial education programs or credit management tools.
+   - **Observation:** Categorical factors such as loan term (36 months), lower loan grades (B, C), and purposes like debt consolidation are more common among defaulters. For example, 48% of defaulters specified debt consolidation as the loan purpose.
+   - **Recommendation:** Reevaluate loan terms, grades, and purposes to ensure they do not disproportionately increase default risk. For instance, additional scrutiny might be needed for loans categorized under certain grades or purposes.
 
-7. **Optimize Loan Issuance Strategies:**
+7. **Regional Variations:**
 
-   - **Adjust Issuance Patterns:** Given the fluctuations in loan amounts over time, especially the increase in issuance post-2008 Financial Crisis, review and adjust loan issuance strategies to better align with economic cycles and avoid overexposure during economic recoveries.
-   - **Seasonal Trends:** Adjust loan issuance strategies based on seasonal trends, with special attention to peak months like December, to manage default risk effectively.
+   - **Observation:** Regional trends show varied loan amounts and default rates, with noticeable differences between the West, Southeast, and Midwest regions. Notably, the total loan amount increased significantly post-2008 financial crisis.
+   - **Recommendation:** Tailor regional lending strategies and risk management approaches based on local economic conditions and historical default trends.
 
-8. **Leverage Regional and Categorical Insights:**
-   - **Regional Insights:** Use regional data to customize loan products and risk assessments according to local conditions, focusing on areas with significant deviations from average trends.
-   - **Categorical Indicators:** Incorporate insights from categorical variables, such as loan grade and income category, into risk assessment models to better predict and manage default risks.
+8. **Verification Status and Default Risk:**
+   - **Observation:** Verification status appears to have a minimal impact on default rates, with both verified and non-verified borrowers showing similar patterns.
+   - **Recommendation:** Strengthen verification processes or consider alternative methods for assessing borrower reliability beyond verification status.
 
 ## Technologies Used
 
