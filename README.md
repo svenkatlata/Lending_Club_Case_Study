@@ -285,7 +285,7 @@ Based on the Bivariate Correlation of Numerical Variables vs Categorical Variabl
    - **Sub Grade:** High loan amounts are tied to defaults when the Sub Grade is G4.
    - **Interest Rates:** Defaults are prevalent for high loan amounts with interest rates between 21% and 24%.
    - **Geographic Location:** High loan amounts lead to defaults more frequently in Wyoming.
-4. \*\*Understanding the Demographic of the people whose loans were Charged Off:
+4. **Understanding the Demographic of the people whose loans were Charged Off:**
    - **Variations in Loan Amounts:** The largest charged-off loans were given to individuals in the High Income category who took loans of Grade F for 'Major Purchases' or 'Other' purposes. The Loan Amounts were most likely smaller for the purpose of 'Renewable Energy' across all grades and income categories.
    - **Variations in Annual Income:** The highest annual incomes among charged-off loan recipients were associated with those who had mortgages, took Grade F loans, and had 8-9 years of employment. The Annual incomes were most likely smallest for those whose home ownership status was 'Other'.
    - **Variations in Interest Rates:** The highest interest rates among charged-off loan recipients were most commonly associated with Grade F and G loans, spanning all income categories, and were linked to various loan purposes. Exceptions in purpose include moving, vacation, education, and renewable energy, where the interest rates were lowest for Grades F and G.
